@@ -1,0 +1,38 @@
+[
+    {
+        "month": "Január",
+        "day": 7,
+        "hour": 10,
+        "patients": [
+            "valaki@gmail.com",
+            "haradarichard@gmail.com"
+        ]
+    },
+    {
+        "month": "Január",
+        "day": 10,
+        "hour": 8,
+        "patients": [
+            "bill@gates.com",
+            "elonmusk@tesla.com",
+            "noname@almail.com"
+        ]
+    },
+    {
+        "month": "Február",
+        "day": 5,
+        "hour": 6,
+        "patients": [
+            "alma@alma.com",
+            "sajt@gmail.com"
+        ]
+    },
+    {
+        "month": "Február",
+        "day": 15,
+        "hour": 16,
+        "patients": [
+            "random@random.com"
+        ]
+    }
+]

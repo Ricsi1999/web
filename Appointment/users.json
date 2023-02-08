@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Harada Rich\u00e1rd",
+        "taj": 999999999,
+        "address": "Censored",
+        "email": "haradarichard@gmail.com",
+        "password": "$2y$10$2taXl2aw2UDevBiF7.M8RugaWMkc6IpPvdd8RllZeapIaOctqVIJi"
+    },
+    {
+        "name": "admin",
+        "taj": 100000000,
+        "address": "unknown",
+        "email": "admin@nemkovid.hu",
+        "password": "$2y$10$89LOXnO00oWpqdSQfy82CeKejEx\/gW4gy73YbjaxgnbzmJKIGEzcy"
+    }
+]
