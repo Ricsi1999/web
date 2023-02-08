@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SET</title>
+</head>
+<body style="background-color: #333333">
+    <table style="margin-left: auto; margin-right: auto;">
+        <tr>
+            <td style="padding: 40px;">
+                <table id="table"></table>
+            </td>
+            <td>
+                <h1>SET</h1>
+                <p>
+                    A játék célja hogy 3 kártyából álló SET-eket
+                    találjunk meg az asztalra lehelyezett 12 kártyából.
+                    Minden kártyának 3 tulajdonsága van, amik a következők:
+                    FORMA: ovális, hullámos, rombusz.
+                    SZÍN: piros, zöld, lila.
+                    SZÁM: 1, 2 vagy 3 forma.
+                    Egy SET 3 kártyából áll, amiben minden jellemzőt külön
+                    megvizsgálva, azoknak vagy azonosnak vagy minden
+                    kártyán különbözőnek kell lennie. Ennek a szabálynak
+                    MINDEN tulajdonság esetében meg kell felelnie a
+                    kiválasztott három lapnak. Más szavakkal: a forma vagy
+                    azononos mindhárom kártyán, vagy mindegyiken más; a
+                    szín vagy azonos mindhárom kártyán, vagy mindegyiken
+                    különböző, stb.
+                    Ha a lapokon egy tulajdonságot vizsgálva 2 azonos és 1
+                    különböző típus látható, akkor az nem SET. Például, ha 2
+                    lap piros, 1 pedig lila, akkor az nem SET. Egy SET esetében
+                    vagy mindhárom kártyán azonos az adott tulajdonság, vagy
+                    laponként különböző.
+                </p>
+                <div id="settings">
+                    <table>
+                        <tr>
+                            <td>
+                                <a>JÁTÉKMÓD:</a>
+                            </td>
+                            <td>
+                                <button class="myButton" id="changemode" onclick="changeMode()">GYAKORLÓ</button>
+                            </td>
+                            <td>
+                                <button class="startButton" id="start" onclick="startGame()">START</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a>SET SÚGÁS:</a>
+                            </td>
+                            <td>
+                                <button class="myButton" id="setexist" onclick="setHelpExist()">NEM</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a>SET MUTATÁSA:</a>
+                            </td>
+                            <td>
+                                <button class="myButton" id="showset" onclick="setShowExist()">NEM</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a>AUTO KIEGÉSZÍTÉS:</a>
+                            </td>
+                            <td>
+                                <button class="myButton" id="autoadd" onclick="setAutoAdd()">IGEN</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            
+                            <td>
+                                <br><a>JÁTÉKOSOK SZÁMA: </a>
+                            </td>
+                            <td>
+                                <br><input id="playernum" style="width: 130px;" type="range" min="1" max="10" value="1"><a id="range"> 1</a>
+                            </td>
+                        </tr>
+                    </table>  
+                    <p id="players">
+                        <input id="p0" type="text" value="Játékos1">
+                    </p>
+                </div>
+                
+                <div id="activegame" class="hidden"></div> 
+                <div id="remain"></div>  
+            </td>
+        </tr>
+    </table>
+    <script src="script.js"></script>
+</body>
+</html>

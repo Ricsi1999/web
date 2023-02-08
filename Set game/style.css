@@ -1,0 +1,151 @@
+.card {
+    width: 120px;
+    border: 5px solid #ffffff00;
+}
+
+.choosen {
+    border: 5px solid #ffd900;
+}
+
+.help {
+    border: 5px solid #2ae400;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+
+a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+p {
+    width: 800px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 20px;
+}
+
+.startButton {
+    width: 200px;
+	box-shadow:inset 0px 1px 0px 0px #fff6af;
+	background-color:#22e000;
+	border-radius:6px;
+	border:1px solid #000000;
+	display:inline-block;
+	cursor:pointer;
+	color:#333333;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #70b600;
+    margin: 5px;
+}
+.startButton:hover {
+    background-color:#008628;
+    color:#ffffff;
+}
+.startButton:active {
+	position:relative;
+	top:1px;
+}
+
+.myButton {
+    width: 200px;
+	box-shadow:inset 0px 1px 0px 0px #fff6af;
+	background-color:#ffec64;
+	border-radius:6px;
+	border:1px solid #000000;
+	display:inline-block;
+	cursor:pointer;
+	color:#333333;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #ffee66;
+    margin: 5px;
+}
+.myButton:hover {
+	background-color:#ffab23;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.myButtonInactive {
+    width: 200px;
+	box-shadow:inset 0px 1px 0px 0px #fff6af;
+	background-color:#a0a0a0;
+	border-radius:6px;
+	border:1px solid #000000;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #a0a0a0;
+    margin: 5px;
+}
+
+.selectedButton {
+    width: 200px;
+	box-shadow:inset 0px 1px 0px 0px #fff6af;
+	background-color:#f85b00;
+	border-radius:6px;
+	border:1px solid #000000;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #a0a0a0;
+    margin: 5px;
+}
+
+.helpButton {
+    width: 200px;
+	box-shadow:inset 0px 1px 0px 0px #00000000;
+	background-color:#0078e9;
+	border-radius:6px;
+	border:1px solid #000000;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #00000000;
+    margin: 5px;
+}
+.helpButton:hover {
+	background-color:#23e5ff;
+	color: #000000;;
+}
+
+.hidden {
+    display: none;
+}
+
+.nocard {
+	width: 120px;
+}
